@@ -1,0 +1,27 @@
+/* Theme */
+
+main {
+	background-image: url(https://pixabay.com/get/g0ab5c21d85a3366df4543deccc6197f467f7d3b2c9c3bdecae3a377a68ea86d78212dd5211ba673ee2acf482fec6815d.jpg);
+	background-size: cover;
+	color:#FFFFFF
+}
+
+.icons-social a {
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+.icons-social a::after{
+
+	content:"";
+	width: 0%;
+	height: 2px;
+	background: #FFFFFF;
+	display: block;
+	margin: auto;
+	transition: 1s;
+}
+.icons-social a:hover::after{
+	width: 5%;
+}
